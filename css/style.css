@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Metropolis;
+    src: url('../fonts/Metropolis-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+html{
+    font-family: Metropolis;
+}
+body {
+    margin: 0;
+    background: #ebebeb;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 1800px;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+}
+
+.top-line{
+    height: 150px;
+    background-color: #10c73b ;
+
+}
+.soc-site{
+    background: url(../images/soc.png) no-repeat;
+    width: 56px;
+    height: 56px;
+    display: block;
+    background-position: -46px -28px;
+}
